@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="Research Highlights" />
+<ModulePrefs title="High Dimensional Examples" />
 <Content type="html"><![CDATA[
 
 
@@ -27,6 +27,25 @@
   data-thumb="https://sites.google.com/site/xirossiluo/research/HighDim.002.gif"
   alt="" />
 
+  <img height="300" width="400"
+  src="https://sites.google.com/site/xirossiluo/research/HighDim.003.gif"
+  data-thumb="https://sites.google.com/site/xirossiluo/research/HighDim.003.gif"
+  alt="" />
+
+  <img height="300" width="400"
+  src="https://sites.google.com/site/xirossiluo/research/HighDim.004.gif"
+  data-thumb="https://sites.google.com/site/xirossiluo/research/HighDim.004.gif"
+  alt="" />
+
+  <img height="300" width="400"
+  src="https://sites.google.com/site/xirossiluo/research/HighDim.005.gif"
+  data-thumb="https://sites.google.com/site/xirossiluo/research/HighDim.005.gif"
+  alt="" />
+
+  <img height="300" width="400"
+  src="https://sites.google.com/site/xirossiluo/research/HighDim.006.gif"
+  data-thumb="https://sites.google.com/site/xirossiluo/research/HighDim.006.gif"
+  alt="" />
 
   </div>
   </div>
