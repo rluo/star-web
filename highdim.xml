@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="High Dimensional Inference Examples" />
+<Content type="html"><![CDATA[
+<style type="text/css">
+.slideshow { height: 300px; width: 400px; margin: auto }
+.slideshow img { padding: 0px; border: 0px solid #ccc; background-color: #eee; }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script><script src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js" type="text/javascript"></script><script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+                fx: 'fade',
+                random: 1,
+                timeout: 7000
+        });
+});
+</script>
+   <div class="slideshow">
+<img height="300" src="https://sites.google.com/site/xirossiluo/research/HighDim.001.gif" width="400">        
+<img height="300" src="https://sites.google.com/site/xirossiluo/research/HighDim.002.gif" width="400">
+<img height="300" src="https://sites.google.com/site/xirossiluo/research/HighDim.003.gif" width="400">
+<img height="300" src="https://sites.google.com/site/xirossiluo/research/HighDim.004.gif" width="400">
+<img height="300" src="https://sites.google.com/site/xirossiluo/research/HighDim.005.gif" width="400">
+<img height="300" src="https://sites.google.com/site/xirossiluo/research/HighDim.006.gif" width="400">
+        </div>
+]]></Content>
+</Module>

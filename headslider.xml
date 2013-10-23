@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="High Dimensional Inference Examples" />
+<Content type="html"><![CDATA[
+
+
+  <html lang="en">
+  <head>
+  <title>Research Highlights</title>
+  <link rel="stylesheet" href="https://sites.google.com/site/xirossiluo/home/dark.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="https://sites.google.com/site/xirossiluo/home/nivo-slider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="https://sites.google.com/site/xirossiluo/home/style.css" type="text/css" media="screen" />
+  </head>
+  <body>
+  <div id="wrapper">
+  <div class="slider-wrapper theme-dark">
+  <div id="slider" class="nivoSlider">
+  
+  <img
+  src="https://sites.google.com/site/xirossiluo/home/Headslides.005.gif"
+  data-thumb="https://sites.google.com/site/xirossiluo/home/Headslides.005.gif"
+  alt="" />
+
+  <img
+  src="https://sites.google.com/site/xirossiluo/home/Headslides.001.gif"
+  data-thumb="https://sites.google.com/site/xirossiluo/home/Headslides.001.gif"
+  alt="" />
+
+  <img
+  src="https://sites.google.com/site/xirossiluo/home/Headslides.002.gif"
+  data-thumb="https://sites.google.com/site/xirossiluo/home/Headslides.002.gif"
+  alt="" />
+
+  <img
+  src="https://sites.google.com/site/xirossiluo/home/Headslides.003.gif"
+  data-thumb="https://sites.google.com/site/xirossiluo/home/Headslides.003.gif"
+  alt="" />
+  
+  <img
+  src="https://sites.google.com/site/xirossiluo/home/Headslides.004.gif"
+  data-thumb="https://sites.google.com/site/xirossiluo/home/Headslides.004.gif"
+  alt="" />
+
+  </div>
+  </div>
+  </div>
+
+  <script type="text/javascript" src="https://sites.google.com/site/xirossiluo/home/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="https://sites.google.com/site/xirossiluo/home/jquery.nivo.slider.js"></script>
+  <script type="text/javascript">
+
+  $(window).load(function() {
+  $('#slider').nivoSlider({effect: 'random', pauseTime: 3000,});
+  });
+  </script>
+
+  </body>
+  </html>
+
+
+
+]]></Content>
+</Module>
