@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="High Dimensional Examples" />
+<ModulePrefs title="High Dimensional Methods" />
 <Content type="html"><![CDATA[
 
 
   <html lang="en">
   <head>
-  <title>Research Highlights</title>
+  <title>High Dimensional Methods</title>
   <link rel="stylesheet" href="https://sites.google.com/site/xirossiluo/home/dark.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="https://sites.google.com/site/xirossiluo/home/nivo-slider.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="https://sites.google.com/site/xirossiluo/home/style.css" type="text/css" media="screen" />
