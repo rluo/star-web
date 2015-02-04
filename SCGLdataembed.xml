@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Causal Methods" />
+<Content type="html"><![CDATA[
+
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
@@ -26,11 +31,24 @@ form {
   top: 10px;
 }
 
+#csvdata {
+    display: none;
+}
 </style>
+
+
 <form>
   <label><input type="radio" name="mode" value="grouped"> Grouped</label>
   <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
 </form>
+
+<pre id="csvdata">
+Category,Read,Write
+SCGL,529,16.5
+Brown Cluster 1,298,6.1
+Brown Cluster 2,190,7.7
+</pre>
+
 <div id="chart-svg"></div>
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -51,15 +69,21 @@ var svg = d3.select("#chart-svg").append("svg")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("SCGLbench.csv", function (data){
+
     
-    var headers = ["Read","Write"];
-    
-    var layers = d3.layout.stack()(headers.map(function(priceRange) {
-        return data.map(function(d) {
-          return {x: d.Category, y: +d[priceRange]};
-        });
-    }));
+var crimea_raw = d3.select("#csvdata").text();
+var data = d3.csv.parse(crimea_raw);
+
+var headers = ["Read","Write"];
+ 
+var layers = d3.layout.stack()(headers.map(function(cause) {
+	return data.map(function(d) {
+	return {x: d.Category, y: +d[cause]};
+	});
+
+}));
+
+
 	
 	
 console.log(layers);
@@ -226,6 +250,13 @@ console.log(layers);
         .style("text-anchor", "middle")
         .attr("font-size", "12px")
         .attr("font-weight", "bold");
-});
 
+
+
+	
 </script>
+
+
+
+]]></Content>
+</Module>
