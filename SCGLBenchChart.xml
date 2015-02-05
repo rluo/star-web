@@ -13,8 +13,8 @@
       var data = google.visualization.arrayToDataTable([
       ['Resource', 'Read', 'Write'],
       ['SCGL',529,16.5],
-      ['Brown CSS',298,6.1],
-      ['Brown CCV',190,7.7]
+      ['Brown HPC 1',298,6.1],
+      ['Brown HPC 2',190,7.7]
       ]);
 
       var options = {
