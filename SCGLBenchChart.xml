@@ -19,7 +19,7 @@
 
       var options = {
       chart: {
-      title: 'Data Read/Write Performance',
+      title: 'Data Read/Write Performance (MB/s)',
       subtitle: 'Benchmarks for SCGL, CSS, and CCV',
       },
       bars: 'horizontal' // Required for Material Bar Charts.
