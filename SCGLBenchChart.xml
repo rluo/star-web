@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="SCGL Benchmarks" />
+<Content type="html"><![CDATA[
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1.1", {packages:["bar"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+      ['Resource', 'Read', 'Write'],
+      ['SCGL',529,16.5],
+      ['Brown CSS',298,6.1],
+      ['Brown CCV',190,7.7]
+      ]);
+
+      var options = {
+      chart: {
+      title: 'Data Read/Write Performance',
+      subtitle: 'Benchmarks for SCGL, CSS, and CCV',
+      },
+      bars: 'horizontal' // Required for Material Bar Charts.
+      };
+
+      var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+      chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="barchart_material" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
+
+
+
+
+]]></Content>
+</Module>
+
+
